@@ -1,0 +1,309 @@
+/*ini buat rata atas*/
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*  . buat class*/
+/*  # buat id*/
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background: #FBD6D2;
+}
+
+.wrapper{ /*margin website*/
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a{
+    font-size: 35px;
+    font-weight: bold;
+    float: left; /*ini buat penempatan*/
+    font-family: cursive;
+    color: #DAB88B;
+}
+
+.menu{
+    float: right;
+}
+
+nav{
+    width: 93%;
+    margin: auto;
+    top: 5px; /*untuk z index harus pakai top jangan margin top*/
+    display: flex;
+    line-height: 60px;
+    position: sticky;
+    position: -webkit-sticky;
+    background: linear-gradient(to right, #99FFCD, #DAB88B);
+    border:2px solid #DAB88B;
+    border-radius: 20px;
+    -webkit-box-shadow:0px 1px 10px #1B1A17;
+    -moz-box-shadow:0px 1px 10px #1B1A17;
+    box-shadow:0px 1px 10px #1B1A17;
+    z-index: 1;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    float: left; /*buat penempatan menu ke atas*/
+}
+
+nav ul li a{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 18px 0px 18px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+#contact{
+    color: white;
+    background: blue;
+    padding: 10px 20px 10px 20px;
+    margin-right: 5px;
+    border-radius: 20px;
+}
+
+#contact:hover{
+    background: #333C83;
+    color: white;
+    text-decoration: none;
+}
+
+#home2{
+    background: white;
+    padding: 10px 20px 10px 20px;
+    margin-right: 5px;
+    border-radius: 20px;
+}
+
+section {    /*Buat Gambar*/
+    margin: auto;
+    display: flex;  /*untuk mindahin text/gambar ke kiri/kanan*/
+    margin-bottom: 50px;
+}
+#gambar1{
+    width: 35%;
+    margin-top: 30px;
+    border-radius: 90px;
+    border: 3px solid #DAB88B;
+}
+
+.kolom{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.deskripsi{
+    margin-top: 30px;
+    margin-left: 0px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    font-family: fantasy;
+    font-weight: lighter;
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #DAB88B;
+    width: 100%;
+    line-height: 50px;
+}
+
+
+
+#staytune{
+    text-align: center;
+    margin-left: 0px;
+}
+
+#staytune2{
+    text-align: center;
+    margin-right: 50px;
+    font-size: 20px;
+}
+
+a.tbl_1{
+    background: #DAB88B;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl_1:hover{
+    background: #42C2FF;
+    text-decoration: none;
+}
+
+p{
+    margin: 10px 0px 0px 0px;
+    padding: 10px 0px 0px 0px;
+}
+
+#p2{
+    font-size: 20px;
+    margin-top: -10px;
+    margin-bottom: 25px;
+    text-align: center;
+    margin-right: 0px;
+}
+
+a.tbl_2{
+    background: #42C2FF;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 80px;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+a.tbl_2:hover{
+    background: #DAB88B;
+    text-decoration: none;
+}
+    
+#staytune2{ /*margin left sama text indentation mirip*/
+    margin-left: 82px;
+}
+
+#staytune3{
+    margin-left: 195px;
+}
+
+#kolom1{
+    background: #99FFCD;
+    border-radius: 90px;
+    margin-left: 15px;
+    width: 100%;
+    border: 3px solid #DAB88B;
+}
+
+p.deskripsi2{
+    text-align: center;
+    font-weight: bold;
+}
+
+#kolom2{
+    background: #99FFCD;
+    width: auto;
+    margin-right: 15px;
+    border-radius: 90px;
+    border: 3px solid #DAB88B;
+    padding-bottom: 30px;
+}
+
+#lorem2{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 17px;
+}
+
+#gambar2{
+    width: 50%;
+    border-radius: 90px;
+    border: 3px solid #DAB88B;
+}
+
+.kolom3{
+    width: 500%;
+}
+
+#btn2{
+    margin-left: 155px;
+}
+
+#alma{
+    width: 70%;
+    margin-left: 90px;
+}
+
+.almac{
+    display: flex;
+    text-align: center;
+    margin-left: 110px;
+    width: 100%;
+}
+
+.gundar p{
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.sman55 p{
+    margin-left: 150px;
+}
+
+#txt1{
+    width: 80%;
+    font-family: fantasy;
+    color: #DAB88B;
+    font-size: 25px;
+}
+
+#txt2{
+    font-family: fantasy;
+    color: #DAB88B;
+    font-size: 25px;
+}
+
+.kolom4{
+    width: 35%;
+    text-align: center;
+    background: #99FFCD;
+    border-radius: 90px;
+    border: 3px solid #DAB88B;
+    margin-left: 32%;
+    padding: 10px;
+    margin-bottom: 150px;
+    font-family: fantasy;
+    color: #DAB88B;
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+.footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background: linear-gradient(to right, #DAB88B, #99FFCD);
+    font-size: 13px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    text-align: center;
+}
+
+#copyright{
+    font-family: fantasy;
+    color: #247881;
+}
